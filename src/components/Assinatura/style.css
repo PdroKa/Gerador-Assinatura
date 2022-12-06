@@ -1,0 +1,121 @@
+.assinatura-total{
+    margin-top: 16px;
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: center;
+}
+
+.assinatura-logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.assinatura-logo {
+    margin-right: 16px;
+    margin-left: 16px;
+    font-family: bahamas;
+    color: #321c62;
+}
+.descricao-logo-img{
+    margin-right: 0px;
+    margin-left: 15px;
+    font-family: bahamas;
+    color: #321c62;
+}
+
+.section-conteudo {
+    display: flex;
+}
+.lista-conteudo{
+    padding-left: 32px;
+    border-left: solid 1px #DFE7EF ;
+    list-style: none;
+}
+.section-info {
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+    border-top: solid 0.4px #DFE7EF;
+}
+
+.info {
+    font-size: 12px;
+    margin-top: 16px;
+    justify-content: center;
+    align-items:center;
+    text-align: justify;
+}
+.lgpd{
+    font-size: 12px
+}
+.lista-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.site{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    margin: 0;
+}
+.assinatura{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.alerta{
+    color: #000;
+    height: 200px;
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    word-break: break-word;
+}
+a:hover {
+    filter: brightness(1.9);
+}
+
+@media (max-width:1024px){
+    .assinatura-logo{
+        margin: 0;
+        padding: 0;
+        border: 0;
+
+    }
+    .descricao-logo-img{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: -1px;
+    }
+    .assinatura-total{
+        width: 50%;
+        padding: 0;
+        margin: 0;
+    }
+    .lista-conteudo{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0 0 10px;
+        flex-wrap: nowrap;
+
+    }
+    .lgpd{
+        font-size: 10px;
+    }
+    .alerta{
+        display: flex;
+        width:200px;
+        height: auto;
+    }
+}
